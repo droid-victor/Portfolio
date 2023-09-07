@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react'
+import { useState } from 'react'
 import {
   faAngular,
   faCss3,
@@ -13,6 +13,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import './index.scss'
 
 const About = () => {
+  // eslint-disable-next-line no-unused-vars
   const [letterClass, setLetterClass] = useState('text-animate')
 
   // useEffect(() => {

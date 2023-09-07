@@ -7,6 +7,7 @@ import AnimatedLetters from '../AnimatedLetters'
 import './index.scss'
 
 const Contact = () => {
+  // eslint-disable-next-line no-unused-vars
   const [letterClass, setLetterClass] = useState('text-animate')
   const form = useRef()
 

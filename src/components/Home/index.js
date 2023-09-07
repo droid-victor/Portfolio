@@ -5,6 +5,7 @@ import { useState } from 'react'
 import AnimatedLetters from '../AnimatedLetters'
 
 const Home = () => {
+  // eslint-disable-next-line no-unused-vars
   const [letterClass, setLetterClass] = useState('text-animate')
   const nameArray = ['r', 's', 'l', 'a', 'n']
   const jobArray = [
